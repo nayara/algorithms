@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "types": ["node", "jest"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "./dist"
+  },
+  "exclude": ["**/*.test.*", "**/__mocks__/*", "**/__tests__/*", "node_modules"]
+}
